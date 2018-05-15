@@ -1,4 +1,4 @@
-Data <- read.csv(file = "data.csv") 
+Data <- read.csv(file = "ks-projects-201801.csv") 
 
 Data <- subset.data.frame(Data, state != "canceled" & state != "live" & state != "suspended" & state != "undefined"  & currency == "USD")
 
